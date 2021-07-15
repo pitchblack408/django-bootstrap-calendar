@@ -53,7 +53,7 @@ coverage.xml
 docs/_build/
 
 venv
-.idea
+.idea/
 project_sample/project_sample.db
 .DS_Store
 

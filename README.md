@@ -7,13 +7,13 @@ https://github.com/sandlbn/django-bootstrap-calendar
 
 # Original documentation
 
-=============================
-django-bootstrap-calendar
-=============================
+## django-bootstrap-calendar
 
 simple calendar based on the bootstrap calendar from http://bootstrap-calendar.azurewebsites.net/
 
-.. image:: https://raw.github.com/sandlbn/django-bootstrap-calendar/master/screenshot.png
+
+![calendar](git_images/screenshot.png)
+
 
 Requirements
 ------------
