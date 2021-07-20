@@ -8,7 +8,6 @@ test_django_bootstrap_calendar
 Tests for `django_bootstrap_calendar` modules module.
 """
 
-import os
 import unittest
 from datetime import datetime
 from django.conf import settings
@@ -52,7 +51,7 @@ class TestDjango_bootstrap_calendar(unittest.TestCase):
         )
 
     def test_no_calendar_event_response(self):
-        print "testing serializer"
+        print("testing serializer")
 
         self.assertEqual(
             '{"result": [], "success": 1}',

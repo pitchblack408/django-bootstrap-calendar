@@ -3,7 +3,7 @@ __author__ = 'sandlbn'
 
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
-from utils import datetime_to_timestamp
+from .utils import datetime_to_timestamp
 
 
 class CalendarEvent(models.Model):

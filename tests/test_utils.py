@@ -8,8 +8,6 @@ test_django_bootstrap_calendar
 Tests for `django_bootstrap_calendar` modules module.
 """
 
-import os
-import shutil
 import unittest
 from datetime import datetime
 
@@ -20,7 +18,7 @@ from django_bootstrap_calendar.utils import timestamp_to_datetime
 class TestDjango_bootstrap_calendar(unittest.TestCase):
 
     def setUp(self):
-        print "Running some basic test"
+        print("Running some basic test")
         pass
 
     def test_convert_datetime_to_timestamp(self):
