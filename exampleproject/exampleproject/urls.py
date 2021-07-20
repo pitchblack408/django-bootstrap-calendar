@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
-from website.views import welcome
+# from website.views import welcome
+from website.views import redirect_to_calendar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', welcome, name='welcome'),
+    # path('', welcome, name='welcome'),
+    path('', redirect_to_calendar, name='welcome'),
+    path('calendar/', include('django_bootstrap_calendar.urls')),
 ]

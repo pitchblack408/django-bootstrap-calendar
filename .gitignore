@@ -60,3 +60,5 @@ project_sample/project_sample.db
 project_sample/assets/
 bower_components/
 exampleproject/db.sqlite3
+django-bootstrap-calendar.iml
+exampleproject/django_bootstrap_calendar/migrations/
