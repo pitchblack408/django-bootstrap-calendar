@@ -1,4 +1,5 @@
 from datetime import datetime
+from django.utils.timezone import utc
 
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -12,3 +13,8 @@ def redirect_to_calendar(request):
     return response
 
 
+def servertime(request):
+
+    now = datetime.utcnow().replace(tzinfo=utc)
+    return render(request, "website/servertime.html",
+                  {"now": now})
